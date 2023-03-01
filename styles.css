@@ -73,7 +73,7 @@ body {
 
 .section-one {
     display: flex;
-    flex-basis: 500px;
+    flex-basis: 400px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -94,6 +94,7 @@ body {
     height: 250px;
     width: 60%;
     flex: 1;
+    
     justify-content: center;
     align-items: center;
     background-color: #bec1c5;
@@ -110,4 +111,58 @@ button {
     border-radius: 12px;
     font-weight: bold;
     font-size: 18px;
+}
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 600px;
+    justify-content: center;
+    border: 5px solid red;
+
+
+}
+
+.information-heading {
+    font-size: 36px;
+    font-weight: bolder;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    border: 5px solid rgb(0, 255, 64);
+
+}
+
+.card-container {
+    display: flex;
+    flex: 3;
+    gap: 60px;
+    text-align: center;
+    flex-wrap: wrap;
+
+    border: 5px solid rgb(0, 72, 255);
+    
+}
+
+.img-ill {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    border: 5px solid rgb(187, 255, 0);
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    flex-wrap: wrap;
+    gap: 8px;
 }
