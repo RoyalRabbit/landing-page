@@ -63,7 +63,7 @@ body > div {
 }
 
 .section-one {
-    height: 300px;
+    min-height: 300px;
     flex-wrap: wrap;
 }
 
@@ -97,3 +97,28 @@ body > div {
     margin-top: 12px;
     
 }
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 300px;
+}
+
+.information-heading {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    border: 5px solid pink;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.card-container {
+    flex: 3;
+    display: flex;
+    align-items: center;
+    border: 5px solid purple;
+}
+
