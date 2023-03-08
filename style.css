@@ -26,7 +26,7 @@ body > div {
     border: 3px solid green;
 }
 
-.header, .section-one {
+.header, .section-one, .footer {
     display: flex;
     justify-content: space-between;
     padding: 12px 12.5%;
@@ -199,7 +199,6 @@ body > div {
 
 .banner ul {
     margin-left: 12.5%;
-    border: 5px solid red;
     color: #e5e7eb;
 }
 
@@ -215,4 +214,12 @@ body > div {
     justify-content: flex-end;
     align-self: center;
     margin-top: 0;
+}
+
+.footer {
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    color: #e5e7eb;
+
 }
