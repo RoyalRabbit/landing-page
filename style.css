@@ -63,7 +63,7 @@ body > div {
 }
 
 .section-one {
-    min-height: 300px;
+    min-height: 400px;
     flex-wrap: wrap;
 }
 
@@ -98,27 +98,121 @@ body > div {
     
 }
 
-.section-two {
+.section-two, .section-three, .section-four {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-height: 300px;
+    justify-content: center;
+    min-height: 400px;
 }
 
 .information-heading {
-    flex: 1;
+    flex: 2;
     display: flex;
     align-items: center;
-    border: 5px solid pink;
     font-size: 36px;
+    margin: 12px;
+    
     font-weight: bolder;
     color: #1f2937;
 }
 
 .card-container {
-    flex: 3;
+    flex: 2;
     display: flex;
-    align-items: center;
-    border: 5px solid purple;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;
 }
 
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    width: 120px;
+    
+}
+
+.img-ill{
+    height: 120px;
+    width: 120px;
+    border: 3px solid #3882f6;
+    border-radius: 9%;
+    overflow: hidden;
+}
+
+.fit-image {
+    
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover; /* Scale the image to cover the container without stretching or distorting */
+    object-position: 50%; /* Shift the image towards the center and slightly downwards */
+
+}
+.subtext {
+    text-align: justify;
+    text-align-last: center;
+    width: 120px;
+    color: #1f2937;
+    font-size: 14px;
+}
+
+.section-three {
+    background-color: #e5e7eb;
+    padding: 0 17.5%;
+    gap: 8px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+    
+}
+
+.signature{
+    align-self: flex-end;
+    margin-right: 10%;
+    font-weight: bolder;
+    color: #1f2937;
+    font-size: 20px;
+}
+
+.section-four {
+    padding: 0 12.5%
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px 0;
+    border-radius: 7.5px;
+    background-color: #3882f6;
+}
+
+.banner ul {
+    margin-left: 12.5%;
+    border: 5px solid red;
+    color: #e5e7eb;
+}
+
+.subheading {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.banner .sign-up {
+    border: 2px solid #e5e7eb;
+    margin-right: 12.5%;
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    margin-top: 0;
+}
