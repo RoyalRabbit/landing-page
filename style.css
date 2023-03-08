@@ -14,17 +14,17 @@ body {
     box-sizing: border-box;
     margin: 0;
     flex-direction: column;
-    border: 5px solid red;    
+    /* border: 5px solid red;      */
     justify-content: center;
 }
 
-body > div {
+/* body > div {
     border: 1px solid rgb(0, 34, 255);
 }
 
 .content-container > div {
     border: 3px solid green;
-}
+} */
 
 .header, .section-one, .footer {
     display: flex;
